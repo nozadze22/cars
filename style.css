@@ -1,0 +1,872 @@
+:root   {
+    --head-font:'Roboto', sans-serif;
+    --pirmary-color:#fff;
+    --secondery-color: #000;
+    --back-ground-color:  rgb(47,46,46);
+ 
+  
+}
+
+
+
+html {
+  scroll-behavior: smooth;
+
+}
+body {
+    
+    padding: 0px;
+  margin: 0px;
+  
+}
+.felx-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: var(--head-font);
+    position: fixed;
+    z-index: 100;
+    
+    
+    
+    
+   
+}
+header nav {
+    background-color: rgb(47,46,46) ;
+     width: 100%;
+     box-sizing: border-box;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    justify-content: space-around;
+    
+
+}
+
+  
+ header nav .checkBtn {
+ font-size: 20px;
+ place-items: center;
+ padding-top: 20px;
+ color: white;
+ display: none;
+ padding: 20px;
+ }
+ header nav input#check {
+ display: none;
+ }
+
+
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul li {
+    display: inline-block;
+   padding: 20px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: var(--pirmary-color);
+    font-size: 14px;
+}
+header nav ul li a i {
+    font-size: 25px;
+}
+header nav ul li a i span {
+    font-size: 18px;
+    padding: 5px;
+    color: var(--pirmary-color);
+    font-family: var(--head-font);
+    font-weight: 150;
+}
+
+main {
+    width: 100%;
+    width: auto;
+    display: grid;
+    grid-template-columns: 1fe;
+    row-gap: 1rem;
+    color: var(--pirmary-color);
+    font-family: var(--head-font) ;
+    box-sizing: border-box;
+    }
+    
+
+
+
+
+
+
+
+main section.baner {
+   width: 100%;
+    height: 900px;
+    background-image: url("https://static.wixstatic.com/media/11062b_40a304aeb9034bc187226c259aaa4ca3f000.jpg/v1/fill/w_1349,h_585,al_c,q_85,usm_0.33_1.00_0.00,enc_auto/11062b_40a304aeb9034bc187226c259aaa4ca3f000.jpg");
+   background-repeat: no-repeat;
+    background-size: cover;
+   background-position: center;
+   background-attachment: fixed;
+   position: relative;
+   background-color: transparent;
+   box-sizing: border-box;
+  
+}
+  section div.overley {
+     width: 100%;
+     height: 100%;
+     margin: auto;
+    position: absolute;
+    top: 0xp;
+    left: 0px;
+    align-items: center;
+    background-color: rgba(47,46,46, 0.2);
+    
+  }
+
+ 
+
+ 
+
+
+main section.baner article  {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+   height: 30px;
+    align-items: center;
+    margin: auto;
+    
+   
+}
+
+    
+
+main section.baner article  div h1  {
+
+color: rgb(255,255,255);
+font-size: 65px;
+
+text-align: center;
+font-weight: 450;
+transition-duration: 700ms;
+
+
+
+
+}
+main section.baner article div h3 {
+    color: rgb(255,255,255);
+    font-size: 19px;
+    text-align: center;
+    line-height: 1em;
+    font-weight: 300;
+    margin-top: -70px;
+    letter-spacing: 0.19em;
+    background: transparent;
+    
+}
+
+
+
+
+ 
+ 
+ main section.baner div.wen {
+    border-radius: 50%;
+    border: 3px solid var(--pirmary-color);
+    width: 138px;
+    height: 139px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   margin-top: 150px;
+  
+   
+   
+   
+   
+ }
+ main section.baner div.wen div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background: transparent;
+   
+    
+    
+    
+ }
+
+ main section.baner div.wen span.line {
+    width: 40px;
+    height: 3px;
+    background-color: #fff;
+
+    
+   
+    
+}
+main section.baner div.wen span.linee {
+    width: 40px;
+    height: 3px;
+    margin-left: 35px;
+    background-color: #fff;
+  
+}
+ 
+
+ 
+
+ main section.baner div.wen div svg{
+   width: 80px;
+   height: 79px;
+  
+
+  
+ 
+   
+ }
+  main section.baner div.wen div svg g {
+    fill: #fff;
+   
+    
+    
+  }
+ 
+  
+  main section.baner div.icons  {
+    width: 100%;
+     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 450px;
+    
+   
+  }
+  main section.baner div.icons nav ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  main section.baner div.icons nav ul li a span   {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    background-color: var(--pirmary-color);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  main section.baner div.icons nav ul li a span i {
+    font-size: 28px;
+  }
+  
+  main section.baner div.icons nav ul li a {
+    text-decoration: none;
+    color: var(--secondery-color);
+    
+  }
+
+ 
+  section.servise {
+    width: 100%;
+    height: 600px;
+    background-image: url("https://static.wixstatic.com/media/1e47b2_cd5df08585b64f40a575e620ed3bf997.jpg/v1/fill/w_1349,h_650,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/1e47b2_cd5df08585b64f40a575e620ed3bf997.jpg");
+    font-family: var(--head-font);
+    color: var(--pirmary-color);
+    transition-duration: 700ms;
+   
+    object-fit: cover;
+    background-position: center;
+    
+   
+    
+  }
+  section.servise article {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    
+  }
+    
+  
+
+  section.servise article h1 {
+    color: #fff;
+    margin-top: 100px;
+    font-size: 35px;
+    font-weight: 200;
+   
+  }
+
+section.servise article span.line {
+    background-color: #fff;
+    width: 40px;
+    height: 3px;
+    margin: auto;
+   
+
+    
+}
+ section.servise aside div svg {
+    width: 100%;
+    height: 100px;
+    font-size: 20px;
+    fill: white;
+    margin-top: 40px;
+    
+ }
+ section.servise aside  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    height: 150px;
+ }
+
+ section.servise aside div {
+  display: inline-block;
+  margin: auto;
+ }
+ section.servise aside div svg {
+    display: flex;
+    justify-content: space-between;
+
+ }
+    
+ section.servise aside div:nth-child(1) h3,h5 {
+    width: 150px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200
+ }
+ section.servise aside div:nth-child(2) h3,h5 {
+    width: 150px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200
+ }
+ 
+
+ section.servise aside div:nth-child(3) h3,h5 {
+    width: 150px;
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200
+ }
+ 
+ 
+ section.our {
+    width: 100%;
+    
+    
+    font-family: var(--head-font);
+
+}
+ section.our article  {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+    margin-top: 70px;
+    display: grid;
+    
+}
+ section.our article  h1 {
+    font-size: 30px;
+    font-weight: 300;
+    
+}
+ section.our article span {
+     width: 50px;
+     height: 3px;
+     background-color: #000;
+     margin: auto;
+    font-weight: 400;
+    
+
+}
+
+ 
+ 
+  section.our article h4 {
+ font-weight: 300;
+font-size: 18px;
+}
+   
+section.pic {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 100%;
+  margin: auto;
+  font-family: var(--head-font);
+
+
+}
+section.pic aside {
+ max-width: 580px ;
+height: 320px;
+position: relative;
+background-image: url('https://static.wixstatic.com/media/67e4cbe4b87f4b92ab43143f736b883e.jpg/v1/fit/w_580,h_437,q_90/67e4cbe4b87f4b92ab43143f736b883e.webp');
+background-size: cover;
+box-sizing: border-box;
+transition-duration: 2s;
+
+
+}
+
+ section.pic aside .overley {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0px;
+  background-color: rgba(54,54,54,0.6);
+  box-sizing: border-box;
+  opacity: 0;
+ }
+ section.pic aside:hover .overley {
+  opacity: 1;
+  transition: ease 1s;
+ }
+ section.pic aside .overley  a  {
+  width: 328px;
+  height: 320px;
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+}
+ section.pic aside .overley a h1,p {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 60px;
+
+ }
+ section.pic aside .overley  a h1 {
+  font-size: 30px;
+ color: white;
+ font-weight: 300;
+ }
+ section.pic aside .overley  a p {
+  font-size: 14px;
+  color: white;
+  font-weight: 300;
+  width: 270px;
+  text-align: center;
+  line-height: 2em;
+ 
+  
+ }
+ section.pic aside:nth-child(2){
+  background-image: url('https://static.wixstatic.com/media/e5bef901fe9e4441a521299c2cd62351.jpg/v1/fill/w_427,h_320,q_90/e5bef901fe9e4441a521299c2cd62351.webp');
+ }
+
+ section.pic aside:nth-child(3){
+ background-image: url('https://static.wixstatic.com/media/08edc153c8924cd98b40463aeae91206.jpg/v1/fill/w_426,h_320,q_90/08edc153c8924cd98b40463aeae91206.webp');
+ }
+ section.pic aside:nth-child(4){
+   
+  background-image: url('https://static.wixstatic.com/media/64104960642a4ba994096bbc0e2fe879.jpg/v1/fill/w_427,h_320,q_90/64104960642a4ba994096bbc0e2fe879.webp');
+ 
+  }
+ section.pic aside:nth-child(5){
+  background-image: url('https://static.wixstatic.com/media/628bb3a0f5914616bfe724922bab3f4d.jpg/v1/fill/w_427,h_320,q_90/628bb3a0f5914616bfe724922bab3f4d.webp');
+ }
+ section.pic aside:nth-child(6){
+  background-image: url('https://static.wixstatic.com/media/4a73c7141cc6490cbb517ae395f47c97.jpg/v1/fill/w_426,h_320,fp_0.87_0.16,q_90/4a73c7141cc6490cbb517ae395f47c97.webp');
+ }
+
+ main.banner {
+  width: 100%;
+  height: 2350px;
+  font-family: var(--pirmary-color);
+  color: #000;
+  display: grid;
+  grid-template-columns: 1fr;
+ }
+ 
+  
+ main.banner section.about {
+  width: 100%;
+ height: auto;
+  margin-top: 70px;
+  background-image: url("https://static.wixstatic.com/media/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg/v1/fill/w_1323,h_1080,al_c,q_85,enc_auto/1e47b2_0d6c77b5ffd04c0e92f186a8193c3e3c.jpg");
+  
+   font-family: var(--head-font);
+   
+}
+main.banner section.about div {
+  width: 662px;
+  height: 457px;
+  background-color: var(--pirmary-color);
+  margin: auto;
+ 
+  margin-top: 150px;
+ box-sizing: border-box;  
+  
+  
+
+ }
+ main.banner section.about div h1 {
+  width: 100%;
+  height: 0px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 30px;
+  display: grid;
+  grid-template-columns: 1fr;
+padding: 55px 0px;
+ }
+
+ main.banner section.about div h1 span.line {
+  width: 40px;
+  height: 3px;
+  background-color: black;
+  margin: auto;
+  margin-top: 17px;
+ }
+ main.banner section.about div h4 {
+  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  line-height: 1.5em;
+  padding: 0px 90px;
+  box-sizing: border-box;
+  font-weight: 300;
+ }
+  
+ main.banner section.about div h4.sec {
+  margin-top: 30px;
+  text-align: center;
+  padding: 0px 105px;
+ }
+  
+
+main.banner section.photo {
+  width: 100%;
+  height: 520px;
+  background-image: url(" https://static.wixstatic.com/media/9b6c7d_54033d6d82c24d8e9be8212d3a8febe6.jpg/v1/fill/w_1349,h_520,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/9b6c7d_54033d6d82c24d8e9be8212");
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  margin-top: 90px;
+  background-size: auto;
+  background-position: center;
+  
+
+  
+}
+ main.banner aside.car {
+ width: 100%;
+ height: 20px;
+ 
+  
+ }
+
+ main.banner aside.car div {
+  width: 200px;
+  height: 234px;
+  margin-top: 20px;
+  background: transparent; 
+  background: fixed;
+
+
+}
+main.banner aside div.finde {
+  width: 714px;
+  background-color: var(--pirmary-color);
+  height: 700px;
+  margin-top: 5px;
+}
+
+main.banner   aside div.finde aside.input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main.banner   aside div.finde aside.input div h5 {
+  
+ width: 200px;
+
+}
+main.banner  aside div.finde aside.input div i a {
+    color: var(--secondery-color);
+    text-decoration: none;
+    font-family: var(--head-font);
+    font-weight: 250;
+}
+
+main.banner   aside div.finde aside.input div h5.tel {
+text-align: start;
+}
+main.banner   aside div.finde aside.input div h5 {
+    text-align: start;
+     width: 200px;
+    
+}
+main.banner   aside div.finde aside.input div h5.date {
+    line-height: 1.5em;
+}
+main.banner   aside div.finde aside.input div.input {
+    margin-left: -30px;
+    margin-top: 45px;
+    line-height: 1.5em;
+    
+    
+    
+    
+    
+   
+}
+main.banner aside div.finde aside.input div.input label {
+
+font-size: 15px;
+text-align: start;
+height: 40px;
+width: 200px;
+font-weight: 200;
+margin: 0px 0px 9px;
+
+
+
+}
+main.banner   aside div.finde aside.input  div.input  input {
+    height: 30px;
+    width: 289px;
+    border-color: black;
+    border: 1px solid;
+     padding: 0px 5px;
+     margin: 2px 0px 9px 0px;
+
+    
+      
+}
+main.banner   aside div.finde aside.input  div.input  input:hover {
+   
+    border: 2px solid;
+    border-color: grey;
+    
+}
+main.banner   aside div.finde aside.input div.input  input.mesige {
+    height: 100px;
+    
+    
+
+}
+main.banner   aside div.finde aside.input div.input button {
+    width: 303px;
+    height: 30px;
+    background-color: #2f2e2e;
+    margin-top: 15px;
+    border: none;
+    color: var(--pirmary-color);
+    font-family: var(--head-font);
+    font-size: 15px;
+    font-weight: 300;
+    
+}
+main.banner   aside div.finde aside.input div.input button:hover {
+    background-color: grey;
+    transition: ease 1s;
+}
+
+footer {
+     width: 100%;
+    height: 169px;
+    background-color: rgb(44, 43, 43);
+    
+
+}
+footer div.foot {
+   width: fit-content;
+   max-width: 200px;
+    height: 50px;
+  margin: auto;
+    
+   
+   
+}
+footer div.foot li {
+    display: inline-block;
+    padding: 6px;
+    margin-top: 40px;
+   
+    
+}
+
+ 
+footer div.foot li a span{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: var(--pirmary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: rgb(29, 28, 28);
+  
+    
+
+}
+footer div.foot li a  {
+    text-decoration: none;
+    
+
+}
+
+footer div.foot li a i {
+    font-size: 17px;
+}
+
+
+
+
+
+ footer div.text h5 {
+    color: #fff;
+    width: 400px;
+     margin: auto;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 200;
+    margin-top: 40px;
+    
+    
+
+ }
+ 
+   footer .chat-box {
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  border-radius: 50%;
+  background-color: white;
+
+
+}  
+
+
+ 
+  
+footer .chat-box i {
+ 
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  place-items: center;
+  font-size: 30px;
+
+ 
+}
+
+
+.book {
+  display: grid;
+  grid-template-columns: 1fr;
+  height: 100vh;
+ row-gap: 40px;
+ place-items: center;
+ background: transparent;
+ 
+}
+
+ .book h2 {
+  font-family: var(--head-font);
+  margin-top: 200px;
+  font-size: 30px;
+  font-weight: 300;
+ }
+  .book span.line {
+  width: 40px;
+  height: 2px;
+  background-color: black;
+  margin-top: -80px;
+  
+ }
+ .book div.style {
+  width: 100%;
+  max-width: 920px;
+  height: 280px;
+  border: 1px solid black;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+ }
+
+ .book div.style aside.left {
+  background-image: url("https://static.wixstatic.com/media/39769ad5f20342dbbb03e2d1679a5c85.jpg/v1/fill/w_375,h_284,fp_0.50_0.50,q_80,usm_0.66_1.00_0.01,enc_auto/39769ad5f20342dbbb03e2d1679a5c85.jpg");
+  background-repeat:no-repeat ;
+  
+}
+.book div.style aside.rigth a  {
+   text-decoration: none;
+}
+.book div.style aside.rigth a h1 {
+  font-size: 18px;
+  font-family: var(--head-font);
+  color: var(--secondery-color);
+  font-weight: 300;
+  margin-top: 60px;
+ text-align: center;
+}
+
+.book div.style aside.rigth p.book {
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  font-weight: 100;
+  margin-left: 0px;
+
+}
+.book div.style aside.rigth p.books {
+  width: 100%;
+  height: 48px;
+  text-align: center;
+  font-weight: 100;
+  margin-left: 0px;
+  margin-top: -10px;
+}
+
+.book div.style aside.rigth button.book {
+  width: 138px;
+  height: 45px;
+  margin: auto;
+  background-color: #2f2e2e;
+  color: var(--pirmary-color);
+  border: solid;
+  font-family: var(--head-font);
+  font-size: 15px;
+}
+.book div.style aside.rigth button.book:hover {
+ transition:1s ease;
+  background-color: rgb(139, 135, 135);
+}
+
