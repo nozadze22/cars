@@ -450,17 +450,20 @@ transition-duration: 2s;
   transition: ease 1s;
  }
  section.pic aside .overley  a  {
-  width: 328px;
+  width: 100%;
   height: 320px;
   display: inline-block;
   text-decoration: none;
   text-align: center;
+  
 }
  section.pic aside .overley a h1,p {
   display: flex;
   justify-content: center;
   text-align: center;
-  margin-left: 60px;
+  display: flex;
+  margin: auto;
+  padding-top: 40px;
 
  }
  section.pic aside .overley  a h1 {
@@ -475,6 +478,7 @@ transition-duration: 2s;
   width: 270px;
   text-align: center;
   line-height: 2em;
+  
  
   
  }
